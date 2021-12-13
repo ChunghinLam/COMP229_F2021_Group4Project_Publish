@@ -41,8 +41,7 @@
     "@types/passport": "^1.0.7",
     "@types/passport-jwt": "^3.0.6",
     "@types/passport-local": "^1.0.34",
-    "@types/passport-local-mongoose": "^6.1.0",
-    "cors": "^2.8.5"
+    "@types/passport-local-mongoose": "^6.1.0"
   },
   "repository": {
     "type": "git",
