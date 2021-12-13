@@ -110,7 +110,7 @@
 
     function downloadCSV() {
         //  let testData = {"_id":{"$oid":"61b0fe1ba2add91264bd973e"},"title":"Andrew Use Only","name":"Andrew Use Only","description":"HHHIII","createdDate":{"$date":"2021-12-06T05:00:00.000Z"},"editedDate":{"$date":"2021-12-08T05:00:00.000Z"},"timesViewed":1,"status":"ACTIVE","questions":[{"questionTitle":"How are you?","type":"YN","responseY":5,"responseN":4,"responseText":[""]},{"questionTitle":"Tell me about yourself","type":"SHORT","responseY":0,"responseN":0,"responseText":["I am fine.","I am 15 years old.","I am a student","s1","alshflkdsflkaj"]}],"creatorId":"6190332f0c78d5e3fcbac953","creatorName":"Andrew"};
-        let questions = <%- JSON.stringify(survey.questions)%>;
+        let questions = '';
         let csv = convertToCSV(questions);
         if (csv == null) return;
 
