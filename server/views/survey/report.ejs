@@ -105,7 +105,7 @@
     }
 
     function downloadCSV() {
-        let questions = '';
+        let questions = <%- JSON.stringify(survey.questions)%>;
         let csv = convertToCSV(questions);
         if (csv == null) return;
 
